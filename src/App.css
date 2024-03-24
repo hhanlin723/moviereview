@@ -24,4 +24,7 @@ code {
   color: white;
 }
 
-
+.movieList {
+  border-color: blue;
+  display: flex;
+}
