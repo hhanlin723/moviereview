@@ -1,5 +1,5 @@
 import React from "react";
-
+//review componennt
 const Review = ({ review }) => {
     return (
       <div className="review">

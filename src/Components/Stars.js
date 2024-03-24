@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+// star rating
 const Stars = () => {
   const [rating, setRating] = useState(0);
 

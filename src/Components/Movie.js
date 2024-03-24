@@ -6,13 +6,13 @@ import ReviewForm from './ReviewForm';
 const Movie = ({ movie }) => {
   const [reviews, setReviews] = useState([]);
   const [newReview, setNewReview] = useState('');
-
+//sets movie reviews to movie
   const handleReviewSubmit = (e) => {
     e.preventDefault();
     setReviews([...reviews, newReview]);
     setNewReview('');
   };
-
+//movie div card
   return (
     <div className="movie">
       <img src={movie.image} alt={movie.title} />
