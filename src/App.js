@@ -1,13 +1,20 @@
 
 import React from 'react';
-import MovieList from './Components/MovieList';
 import './App.css'
+import NavBar from './Components/NavBar';
+import MyRouter from './Components/MyRouter';
 
 const App = () => {
   return (
     <div className="App-header">
-      <h1>Movie Search</h1>
-      <MovieList />
+     <NavBar />
+            
+            <MyRouter  />
+            {/* {on ? <MyRouter /> : <h2>Cool</h2>} */}
+            {/* {on && <MyRouter />} */}
+            
+            
+            {/* <button onClick={handleClick}>Turn On</button> */}
     </div>
   );
 };
